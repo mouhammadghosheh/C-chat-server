@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/mouha/CLionProjects/chat/chatServer.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+netinet/in.h
+-
+signal.h
+-
+sys/socket.h
+-
+sys/ioctl.h
+-
+chatServer.h
+/mnt/c/Users/mouha/CLionProjects/chat/chatServer.h
+
+/mnt/c/Users/mouha/CLionProjects/chat/chatServer.h
+sys/select.h
+-
+
